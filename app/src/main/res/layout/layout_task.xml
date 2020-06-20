@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tc="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+
+    <com.sst.redenvelopes.DragView
+        android:id="@+id/float_drag_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="50dp"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <FrameLayout
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+
+            <com.sst.redenvelopes.CompletedView
+                android:id="@+id/tasks_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                tc:circleColor="#33000000"
+                tc:radius="26dp"
+                tc:ringBgColor="#33000000"
+                tc:ringColor="#FFD600"
+                tc:strokeWidth="2dp" />
+
+            <ImageView
+                android:id="@+id/task_iv"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_task" />
+
+
+        </FrameLayout>
+    </com.sst.redenvelopes.DragView>
+
+
+</FrameLayout>

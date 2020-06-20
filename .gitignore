@@ -1,0 +1,13 @@
+*.iml
+*.bat
+*.apk
+# 自定义了local.properties的请删除这条
+local.properties
+/captures
+~$*
+gradlew
+.DS_Store
+.idea
+.gradle
+gradle
+build
