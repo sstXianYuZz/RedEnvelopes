@@ -10,7 +10,7 @@ import android.widget.ImageView;
 
 
 /**
- * Create by zjy on 2019/8/23
+ * Create by sst on 2019/8/23
  */
 public class DragView extends FrameLayout implements View.OnTouchListener {
 
